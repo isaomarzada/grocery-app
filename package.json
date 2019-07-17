@@ -1,0 +1,27 @@
+{
+  "name": "grocery-app",
+  "version": "1.0.0",
+  "description": "A grocery app to help with shopping",
+  "main": "\u001b[C\u001b[C\u001b[C\u001b(server.js)",
+  "scripts": {
+    "test": "set NODE_ENV=test&& jasmine",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaomarzada/grocery-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaomarzada/grocery-app/issues"
+  },
+  "homepage": "https://github.com/isaomarzada/grocery-app#readme",
+  "devDependencies": {
+    "jasmine": "^3.0.0",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
